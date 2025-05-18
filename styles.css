@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*, html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #f4f4f4;
+    font-family: Poppins, sans-serif;
+}
+
+nav{
+    background-color: darkgray;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+}
+
+nav div img{
+    max-width:30px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#191919;
+    font-weight: 600;
+    padding: 8px 0;
+    transition: all;
+    transition-duration: 300ms;
+    border-bottom: 1px rgba(0, 0, 0, 0) solid;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+nav ul li a:hover{
+   color:rgb(157, 255, 255);
+   transform: scale(1.1);
+}
+
+h1{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 3em;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 40px;
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px 40px;
+}
+
+#about{
+    margin-left: 40px;
+    flex: 2;
+    min-width: 300px;
+    max-width: 600px;
+}
+
+#about p{
+    margin-top: 10px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+#gambar img{
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+    float: right;
+    flex: 1;
+}
+
+#judul h1{
+    margin-top: 50px;
+}
+
+#judul p{
+    text-align: center;
+}
+
+.code{
+    margin: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 0 20px
+}
+
+.code img{
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+    justify-content: center;
+    transition: all;
+    transition-duration: 300ms;
+}
+
+.code img:hover{
+    transform: scale(1.1);
+}
+
+#judul2 p{
+    text-align: center;
+}
+
+#judul3 p{
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+#judul3 p a{
+    text-decoration: none;
+    color: black;
+}
+
+footer{
+    background-color: #232323;
+}
+
+.footernav{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    height: 100px;
+}
+
+footer div h3{
+    color: white;
+}
+
+footer div p a{
+    color: white;
+    text-decoration: none;
+}
+
+.menu{
+    margin-top: 8px;
+    text-align: center;
+}
+
+#contact{
+    margin-top: 10px;
+    text-align: center;
+}
+
+#follow{
+    margin-top: 10px;
+}
+
+#contact a{
+    display: flex;
+}
+
+#kopiraik{
+    clear:both;
+    margin-top: 30px;
+    text-align: center;  
+    padding: 5px;
+    color: #ffffff;
+}
